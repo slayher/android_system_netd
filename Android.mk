@@ -47,7 +47,9 @@ LOCAL_SRC_FILES:=                                      \
                   NatController.cpp                    \
                   PppController.cpp                    \
                   PanController.cpp                    \
-                  ThrottleController.cpp
+                  SoftapController.cpp                 \
+                  ThrottleController.cpp               \
+                  RouteController.cpp
 
 LOCAL_MODULE:= netd
 
