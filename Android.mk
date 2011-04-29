@@ -50,6 +50,7 @@ LOCAL_SRC_FILES:=                                      \
                   PanController.cpp                    \
                   ThrottleController.cpp               \
                   RouteController.cpp
+                  ResolverController.cpp
 
 LOCAL_MODULE:= netd
 
