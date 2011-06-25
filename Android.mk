@@ -47,7 +47,6 @@ LOCAL_SRC_FILES:=                                      \
                   NatController.cpp                    \
                   PppController.cpp                    \
                   PanController.cpp                    \
-                  SoftapController.cpp                 \
                   ThrottleController.cpp               \
                   RouteController.cpp
 
