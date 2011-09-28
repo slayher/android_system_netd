@@ -966,7 +966,7 @@ int CommandListener::RouteCmd::runCommand(SocketClient *cli,
     }
 
     return 0;
-
+}
 
 CommandListener::ResolverCmd::ResolverCmd() :
         NetdCommand("resolver") {

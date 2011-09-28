@@ -49,7 +49,7 @@ LOCAL_SRC_FILES:=                                      \
                   PppController.cpp                    \
                   PanController.cpp                    \
                   ThrottleController.cpp               \
-                  RouteController.cpp
+                  RouteController.cpp                  \
                   ResolverController.cpp
 
 LOCAL_MODULE:= netd
