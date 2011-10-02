@@ -39,6 +39,7 @@ endif
 LOCAL_SRC_FILES:=                                      \
                   main.cpp                             \
                   CommandListener.cpp                  \
+                  DnsProxyListener.cpp                 \
                   NetdCommand.cpp                      \
                   NetlinkManager.cpp                   \
                   NetlinkHandler.cpp                   \
@@ -48,7 +49,8 @@ LOCAL_SRC_FILES:=                                      \
                   PppController.cpp                    \
                   PanController.cpp                    \
                   ThrottleController.cpp               \
-                  RouteController.cpp
+                  RouteController.cpp                  \
+                  ResolverController.cpp
 
 LOCAL_MODULE:= netd
 
